@@ -10,14 +10,24 @@ body {
   text-decoration: none;
 }
 /*--------------------- HEADER -----------------------*/
-.header-logo {
+
+.header-logo-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.9;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .header-btn {
@@ -61,14 +71,6 @@ body {
 
 /*--------------------- PORTFOLIO -----------------------*/
 
-.button-menu {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
 .portfolio-per {
   font-weight: normal;
   font-size: 16px;
@@ -80,7 +82,7 @@ body {
   background-color: #2f303a;
 }
 
-.footer-logo {
+.footer-logo-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -89,17 +91,39 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-
-.footer-address {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.17;
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.footer-mail,
+.address-foot {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .footer-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
